@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:plan-milestone-gaps
 description: Plan work to fill milestone gaps
@@ -25,7 +24,6 @@ Plans work to fill gaps in milestones.
 ## Success Criteria
 
 Gaps identified and planned.
-=======
 ---
 name: gsd:plan-milestone-gaps
 description: Plan work to fill milestone gaps
@@ -52,4 +50,3 @@ Plans work to fill gaps in milestones.
 ## Success Criteria
 
 Gaps identified and planned.
->>>>>>> origin/main

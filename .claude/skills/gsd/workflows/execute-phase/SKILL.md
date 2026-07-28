@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:execute-phase
 description: Workflow for executing a project phase
@@ -35,7 +34,6 @@ Workflow for executing a planned project phase with verification.
 ## Success Criteria
 
 Phase completed with verification and checkpoint approved.
-=======
 ---
 name: gsd:workflow:execute-phase
 description: Workflow for executing a project phase
@@ -72,4 +70,3 @@ Workflow for executing a planned project phase with verification.
 ## Success Criteria
 
 Phase completed with verification and checkpoint approved.
->>>>>>> origin/main

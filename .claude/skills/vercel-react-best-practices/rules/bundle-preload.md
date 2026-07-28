@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Preload Based on User Intent
 impact: MEDIUM
@@ -49,7 +48,6 @@ function FlagsProvider({ children, flags }: Props) {
 ```
 
 The `typeof window !== 'undefined'` check prevents bundling preloaded modules for SSR, optimizing server bundle size and build speed.
-=======
 ---
 title: Preload Based on User Intent
 impact: MEDIUM
@@ -100,4 +98,3 @@ function FlagsProvider({ children, flags }: Props) {
 ```
 
 The `typeof window !== 'undefined'` check prevents bundling preloaded modules for SSR, optimizing server bundle size and build speed.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:reference:checkpoints
 description: Checkpoint reference guide for GSD
@@ -35,7 +34,6 @@ Guide for creating and managing checkpoints.
 ## Success Criteria
 
 Checkpoint approved and work continues.
-=======
 ---
 name: gsd:reference:checkpoints
 description: Checkpoint reference guide for GSD
@@ -72,4 +70,3 @@ Guide for creating and managing checkpoints.
 ## Success Criteria
 
 Checkpoint approved and work continues.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:new-project
 description: Initialize a new project with deep context gathering and PROJECT.md. Creates project structure, requirements, roadmap, and state.
@@ -273,7 +272,6 @@ Display stage banner:
 - `@skills/gsd/agents/research-synthesizer` - Synthesizes research outputs
 - `@skills/gsd/references/questioning.md` - Questioning techniques
 - `@skills/gsd/references/ui-brand.md` - UI/UX guidelines
-=======
 ---
 name: gsd:new-project
 description: Initialize a new project with deep context gathering and PROJECT.md. Creates project structure, requirements, roadmap, and state.
@@ -548,4 +546,3 @@ Display stage banner:
 - `@skills/gsd/agents/research-synthesizer` - Synthesizes research outputs
 - `@skills/gsd/references/questioning.md` - Questioning techniques
 - `@skills/gsd/references/ui-brand.md` - UI/UX guidelines
->>>>>>> origin/main

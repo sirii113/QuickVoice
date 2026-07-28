@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:debug
 description: Workflow for systematic debugging
@@ -32,7 +31,6 @@ Run: `gsd:debug`
 ## Success Criteria
 
 Issue resolved with verified fix.
-=======
 ---
 name: gsd:workflow:debug
 description: Workflow for systematic debugging
@@ -66,4 +64,3 @@ Run: `gsd:debug`
 ## Success Criteria
 
 Issue resolved with verified fix.
->>>>>>> origin/main

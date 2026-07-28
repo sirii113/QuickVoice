@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-research-synthesizer
 description: Synthesizes research outputs from parallel researcher agents into SUMMARY.md. Spawned by /gsd:new-project after 4 researcher agents complete.
@@ -265,7 +264,6 @@ When unable to proceed:
 - `@skills/gsd/agents/roadmapper` - Agent that consumes your SUMMARY.md
 - `@skills/gsd/agents/project-researcher` - One of the 4 researchers
 - `@skills/gsd/commands/new-project` - Command that spawns you
-=======
 ---
 name: gsd-research-synthesizer
 description: Synthesizes research outputs from parallel researcher agents into SUMMARY.md. Spawned by /gsd:new-project after 4 researcher agents complete.
@@ -532,4 +530,3 @@ When unable to proceed:
 - `@skills/gsd/agents/roadmapper` - Agent that consumes your SUMMARY.md
 - `@skills/gsd/agents/project-researcher` - One of the 4 researchers
 - `@skills/gsd/commands/new-project` - Command that spawns you
->>>>>>> origin/main

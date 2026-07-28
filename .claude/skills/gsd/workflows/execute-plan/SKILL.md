@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:execute-plan
 description: Workflow for executing a project plan
@@ -26,7 +25,6 @@ Workflow for executing a complete project plan.
 ## Success Criteria
 
 Plan executed and completed.
-=======
 ---
 name: gsd:workflow:execute-plan
 description: Workflow for executing a project plan
@@ -54,4 +52,3 @@ Workflow for executing a complete project plan.
 ## Success Criteria
 
 Plan executed and completed.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:verify-work
 description: Verify completed work against requirements
@@ -39,7 +38,6 @@ All verification checks pass.
 
 @skills/gsd/agents/verifier - Agent that verifies implementation
 @skills/gsd/commands/execute-phase - Executes phase tasks
-=======
 ---
 name: gsd:verify-work
 description: Verify completed work against requirements
@@ -80,4 +78,3 @@ All verification checks pass.
 
 @skills/gsd/agents/verifier - Agent that verifies implementation
 @skills/gsd/commands/execute-phase - Executes phase tasks
->>>>>>> origin/main

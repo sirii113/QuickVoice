@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-integration-checker
 description: Verifies that integrations work correctly by checking endpoints, responses, and data flow. Spawned by /gsd:complete-milestone orchestrator.
@@ -393,7 +392,6 @@ _Verifier: Claude (gsd-integration-checker)_
 - `@skills/gsd/agents/executor` - Agent that implemented the integrations
 - `@skills/gsd/agents/verifier` - Agent that verifies phase completion
 - `@skills/gsd/references/git-integration` - Git workflow patterns for integration commits
-=======
 ---
 name: gsd-integration-checker
 description: Verifies that integrations work correctly by checking endpoints, responses, and data flow. Spawned by /gsd:complete-milestone orchestrator.
@@ -788,4 +786,3 @@ _Verifier: Claude (gsd-integration-checker)_
 - `@skills/gsd/agents/executor` - Agent that implemented the integrations
 - `@skills/gsd/agents/verifier` - Agent that verifies phase completion
 - `@skills/gsd/references/git-integration` - Git workflow patterns for integration commits
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Cache Property Access in Loops
 impact: LOW-MEDIUM
@@ -27,7 +26,6 @@ for (let i = 0; i < len; i++) {
   process(value)
 }
 ```
-=======
 ---
 title: Cache Property Access in Loops
 impact: LOW-MEDIUM
@@ -56,4 +54,3 @@ for (let i = 0; i < len; i++) {
   process(value)
 }
 ```
->>>>>>> origin/main

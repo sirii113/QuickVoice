@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Split Combined Hook Computations
 impact: MEDIUM
@@ -63,7 +62,6 @@ useEffect(() => {
 ```
 
 **Note:** If your project has [React Compiler](https://react.dev/learn/react-compiler) enabled, it automatically optimizes dependency tracking and may handle some of these cases for you.
-=======
 ---
 title: Split Combined Hook Computations
 impact: MEDIUM
@@ -128,4 +126,3 @@ useEffect(() => {
 ```
 
 **Note:** If your project has [React Compiler](https://react.dev/learn/react-compiler) enabled, it automatically optimizes dependency tracking and may handle some of these cases for you.
->>>>>>> origin/main

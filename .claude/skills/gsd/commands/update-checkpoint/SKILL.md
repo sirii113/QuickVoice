@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:update-checkpoint
 description: Update checkpoint with new information
@@ -27,7 +26,6 @@ Updates an existing checkpoint with new information.
 ## Success Criteria
 
 Checkpoint updated with new information.
-=======
 ---
 name: gsd:update-checkpoint
 description: Update checkpoint with new information
@@ -56,4 +54,3 @@ Updates an existing checkpoint with new information.
 ## Success Criteria
 
 Checkpoint updated with new information.
->>>>>>> origin/main

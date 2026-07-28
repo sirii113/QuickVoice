@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:create-checkpoint
 description: Create phase checkpoint for user approval
@@ -29,7 +28,6 @@ Creates structured checkpoints for user interaction and approval.
 ## Success Criteria
 
 Checkpoint created with user approval.
-=======
 ---
 name: gsd:create-checkpoint
 description: Create phase checkpoint for user approval
@@ -60,4 +58,3 @@ Creates structured checkpoints for user interaction and approval.
 ## Success Criteria
 
 Checkpoint created with user approval.
->>>>>>> origin/main

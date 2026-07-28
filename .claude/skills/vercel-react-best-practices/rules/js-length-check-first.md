@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Early Length Check for Array Comparisons
 impact: MEDIUM-HIGH
@@ -48,7 +47,6 @@ This new approach is more efficient because:
 - It avoids consuming memory for the joined strings (especially important for large arrays)
 - It avoids mutating the original arrays
 - It returns early when a difference is found
-=======
 ---
 title: Early Length Check for Array Comparisons
 impact: MEDIUM-HIGH
@@ -98,4 +96,3 @@ This new approach is more efficient because:
 - It avoids consuming memory for the joined strings (especially important for large arrays)
 - It avoids mutating the original arrays
 - It returns early when a difference is found
->>>>>>> origin/main

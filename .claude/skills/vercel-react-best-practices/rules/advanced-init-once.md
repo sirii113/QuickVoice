@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Initialize App Once, Not Per Mount
 impact: LOW-MEDIUM
@@ -41,7 +40,6 @@ function Comp() {
 ```
 
 Reference: [Initializing the application](https://react.dev/learn/you-might-not-need-an-effect#initializing-the-application)
-=======
 ---
 title: Initialize App Once, Not Per Mount
 impact: LOW-MEDIUM
@@ -84,4 +82,3 @@ function Comp() {
 ```
 
 Reference: [Initializing the application](https://react.dev/learn/you-might-not-need-an-effect#initializing-the-application)
->>>>>>> origin/main

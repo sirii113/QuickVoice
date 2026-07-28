@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:reference:continuation-format
 description: Continuation format reference for GSD sessions
@@ -37,7 +36,6 @@ Key state to preserve:
 ## Success Criteria
 
 Session continues seamlessly from saved state.
-=======
 ---
 name: gsd:reference:continuation-format
 description: Continuation format reference for GSD sessions
@@ -76,4 +74,3 @@ Key state to preserve:
 ## Success Criteria
 
 Session continues seamlessly from saved state.
->>>>>>> origin/main

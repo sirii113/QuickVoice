@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use flatMap to Map and Filter in One Pass
 impact: LOW-MEDIUM
@@ -59,7 +58,6 @@ const numbers = strings.flatMap(s => {
 - Transforming items while filtering some out
 - Conditional mapping where some inputs produce no output
 - Parsing/validating where invalid inputs should be skipped
-=======
 ---
 title: Use flatMap to Map and Filter in One Pass
 impact: LOW-MEDIUM
@@ -120,4 +118,3 @@ const numbers = strings.flatMap(s => {
 - Transforming items while filtering some out
 - Conditional mapping where some inputs produce no output
 - Parsing/validating where invalid inputs should be skipped
->>>>>>> origin/main

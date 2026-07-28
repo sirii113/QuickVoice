@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Hoist RegExp Creation
 impact: LOW-MEDIUM
@@ -44,7 +43,6 @@ const regex = /foo/g
 regex.test('foo')  // true, lastIndex = 3
 regex.test('foo')  // false, lastIndex = 0
 ```
-=======
 ---
 title: Hoist RegExp Creation
 impact: LOW-MEDIUM
@@ -90,4 +88,3 @@ const regex = /foo/g
 regex.test('foo')  // true, lastIndex = 3
 regex.test('foo')  // false, lastIndex = 0
 ```
->>>>>>> origin/main

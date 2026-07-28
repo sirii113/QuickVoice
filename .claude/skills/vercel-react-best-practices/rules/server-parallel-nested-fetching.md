@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Parallel Nested Data Fetching
 impact: CRITICAL
@@ -33,7 +32,6 @@ const chatAuthors = await Promise.all(
 ```
 
 Each item independently chains `getChat` → `getUser`, so a slow chat doesn't block author fetches for the others.
-=======
 ---
 title: Parallel Nested Data Fetching
 impact: CRITICAL
@@ -68,4 +66,3 @@ const chatAuthors = await Promise.all(
 ```
 
 Each item independently chains `getChat` → `getUser`, so a slow chat doesn't block author fetches for the others.
->>>>>>> origin/main

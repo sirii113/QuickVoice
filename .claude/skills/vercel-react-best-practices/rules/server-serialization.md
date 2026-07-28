@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Minimize Serialization at RSC Boundaries
 impact: HIGH
@@ -37,7 +36,6 @@ function Profile({ name }: { name: string }) {
   return <div>{name}</div>
 }
 ```
-=======
 ---
 title: Minimize Serialization at RSC Boundaries
 impact: HIGH
@@ -76,4 +74,3 @@ function Profile({ name }: { name: string }) {
   return <div>{name}</div>
 }
 ```
->>>>>>> origin/main

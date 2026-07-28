@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Early Return from Functions
 impact: LOW-MEDIUM
@@ -49,7 +48,6 @@ function validateUsers(users: User[]) {
   return { valid: true }
 }
 ```
-=======
 ---
 title: Early Return from Functions
 impact: LOW-MEDIUM
@@ -100,4 +98,3 @@ function validateUsers(users: User[]) {
   return { valid: true }
 }
 ```
->>>>>>> origin/main

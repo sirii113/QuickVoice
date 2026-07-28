@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:audit-milestone
 description: Audit milestone progress and status
@@ -26,7 +25,6 @@ Audits milestone progress and status.
 ## Success Criteria
 
 Milestone audit completed.
-=======
 ---
 name: gsd:audit-milestone
 description: Audit milestone progress and status
@@ -54,4 +52,3 @@ Audits milestone progress and status.
 ## Success Criteria
 
 Milestone audit completed.
->>>>>>> origin/main

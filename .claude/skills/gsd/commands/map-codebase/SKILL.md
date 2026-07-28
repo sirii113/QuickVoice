@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:map-codebase
 description: Analyze codebase with parallel mapper agents
@@ -36,7 +35,6 @@ Analyzes existing codebase using parallel mapper agents.
 ## Success Criteria
 
 All 7 documents written with content and committed to git.
-=======
 ---
 name: gsd:map-codebase
 description: Analyze codebase with parallel mapper agents
@@ -74,4 +72,3 @@ Analyzes existing codebase using parallel mapper agents.
 ## Success Criteria
 
 All 7 documents written with content and committed to git.
->>>>>>> origin/main

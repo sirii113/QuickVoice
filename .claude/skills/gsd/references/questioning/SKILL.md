@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:reference:questioning
 description: Guide for effective questioning in GSD
@@ -35,7 +34,6 @@ Guidelines for effective user questioning in GSD workflow.
 ## Success Criteria
 
 Questions answered, ambiguity resolved.
-=======
 ---
 name: gsd:reference:questioning
 description: Guide for effective questioning in GSD
@@ -72,4 +70,3 @@ Guidelines for effective user questioning in GSD workflow.
 ## Success Criteria
 
 Questions answered, ambiguity resolved.
->>>>>>> origin/main

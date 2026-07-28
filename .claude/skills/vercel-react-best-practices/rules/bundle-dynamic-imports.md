@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Dynamic Imports for Heavy Components
 impact: CRITICAL
@@ -34,7 +33,6 @@ function CodePanel({ code }: { code: string }) {
   return <MonacoEditor value={code} />
 }
 ```
-=======
 ---
 title: Dynamic Imports for Heavy Components
 impact: CRITICAL
@@ -70,4 +68,3 @@ function CodePanel({ code }: { code: string }) {
   return <MonacoEditor value={code} />
 }
 ```
->>>>>>> origin/main

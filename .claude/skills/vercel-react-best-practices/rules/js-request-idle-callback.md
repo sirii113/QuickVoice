@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Defer Non-Critical Work with requestIdleCallback
 impact: MEDIUM
@@ -104,7 +103,6 @@ scheduleIdleWork(() => {
 - User-initiated actions that need immediate feedback
 - Rendering updates the user is waiting for
 - Time-sensitive operations
-=======
 ---
 title: Defer Non-Critical Work with requestIdleCallback
 impact: MEDIUM
@@ -210,4 +208,3 @@ scheduleIdleWork(() => {
 - User-initiated actions that need immediate feedback
 - Rendering updates the user is waiting for
 - Time-sensitive operations
->>>>>>> origin/main

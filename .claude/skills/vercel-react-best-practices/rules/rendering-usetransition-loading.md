@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use useTransition Over Manual Loading States
 impact: LOW
@@ -74,7 +73,6 @@ function SearchResults() {
 - **Interrupt handling**: New transitions automatically cancel pending ones
 
 Reference: [useTransition](https://react.dev/reference/react/useTransition)
-=======
 ---
 title: Use useTransition Over Manual Loading States
 impact: LOW
@@ -150,4 +148,3 @@ function SearchResults() {
 - **Interrupt handling**: New transitions automatically cancel pending ones
 
 Reference: [useTransition](https://react.dev/reference/react/useTransition)
->>>>>>> origin/main

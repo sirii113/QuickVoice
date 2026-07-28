@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:continue-phase
 description: Continue phase execution from checkpoint
@@ -27,7 +26,6 @@ Continues phase execution from a checkpoint.
 ## Success Criteria
 
 Phase continues from checkpoint to completion.
-=======
 ---
 name: gsd:continue-phase
 description: Continue phase execution from checkpoint
@@ -56,4 +54,3 @@ Continues phase execution from a checkpoint.
 ## Success Criteria
 
 Phase continues from checkpoint to completion.
->>>>>>> origin/main

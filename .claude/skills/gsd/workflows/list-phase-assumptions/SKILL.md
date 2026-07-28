@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:list-phase-assumptions
 description: Workflow for listing phase assumptions
@@ -27,7 +26,6 @@ Workflow for documenting and reviewing phase assumptions.
 ## Success Criteria
 
 Assumptions documented and risks mitigated.
-=======
 ---
 name: gsd:workflow:list-phase-assumptions
 description: Workflow for listing phase assumptions
@@ -56,4 +54,3 @@ Workflow for documenting and reviewing phase assumptions.
 ## Success Criteria
 
 Assumptions documented and risks mitigated.
->>>>>>> origin/main

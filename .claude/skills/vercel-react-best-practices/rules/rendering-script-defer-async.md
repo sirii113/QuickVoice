@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use defer or async on Script Tags
 impact: HIGH
@@ -67,7 +66,6 @@ export default function Page() {
 ```
 
 Reference: [MDN - Script element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#defer)
-=======
 ---
 title: Use defer or async on Script Tags
 impact: HIGH
@@ -136,4 +134,3 @@ export default function Page() {
 ```
 
 Reference: [MDN - Script element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#defer)
->>>>>>> origin/main

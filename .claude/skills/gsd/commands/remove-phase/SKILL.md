@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:remove-phase
 description: Remove a phase from the roadmap
@@ -25,7 +24,6 @@ Removes a phase from the roadmap.
 ## Success Criteria
 
 Phase removed from roadmap.
-=======
 ---
 name: gsd:remove-phase
 description: Remove a phase from the roadmap
@@ -52,4 +50,3 @@ Removes a phase from the roadmap.
 ## Success Criteria
 
 Phase removed from roadmap.
->>>>>>> origin/main

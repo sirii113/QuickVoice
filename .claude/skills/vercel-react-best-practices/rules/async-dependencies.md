@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Dependency-Based Parallelization
 impact: CRITICAL
@@ -50,7 +49,6 @@ const [user, config, profile] = await Promise.all([
 ```
 
 Reference: [https://github.com/shuding/better-all](https://github.com/shuding/better-all)
-=======
 ---
 title: Dependency-Based Parallelization
 impact: CRITICAL
@@ -102,4 +100,3 @@ const [user, config, profile] = await Promise.all([
 ```
 
 Reference: [https://github.com/shuding/better-all](https://github.com/shuding/better-all)
->>>>>>> origin/main

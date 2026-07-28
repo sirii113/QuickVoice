@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Cache Storage API Calls
 impact: LOW-MEDIUM
@@ -69,7 +68,6 @@ document.addEventListener('visibilitychange', () => {
   }
 })
 ```
-=======
 ---
 title: Cache Storage API Calls
 impact: LOW-MEDIUM
@@ -140,4 +138,3 @@ document.addEventListener('visibilitychange', () => {
   }
 })
 ```
->>>>>>> origin/main

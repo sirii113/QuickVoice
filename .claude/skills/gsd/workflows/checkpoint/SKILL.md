@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:checkpoint
 description: Workflow for managing checkpoints
@@ -34,7 +33,6 @@ Workflow for creating and managing checkpoints.
 ## Success Criteria
 
 Checkpoint approved and phase continues.
-=======
 ---
 name: gsd:workflow:checkpoint
 description: Workflow for managing checkpoints
@@ -70,4 +68,3 @@ Workflow for creating and managing checkpoints.
 ## Success Criteria
 
 Checkpoint approved and phase continues.
->>>>>>> origin/main

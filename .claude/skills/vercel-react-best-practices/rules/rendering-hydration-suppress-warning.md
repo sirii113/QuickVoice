@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Suppress Expected Hydration Mismatches
 impact: LOW-MEDIUM
@@ -29,7 +28,6 @@ function Timestamp() {
   )
 }
 ```
-=======
 ---
 title: Suppress Expected Hydration Mismatches
 impact: LOW-MEDIUM
@@ -60,4 +58,3 @@ function Timestamp() {
   )
 }
 ```
->>>>>>> origin/main

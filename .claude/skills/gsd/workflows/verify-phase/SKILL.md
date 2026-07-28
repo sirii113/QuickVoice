@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:verify-phase
 description: Workflow for verifying phase completion
@@ -27,7 +26,6 @@ Workflow for verifying phase completion.
 ## Success Criteria
 
 Phase verified and ready for checkpoint.
-=======
 ---
 name: gsd:workflow:verify-phase
 description: Workflow for verifying phase completion
@@ -56,4 +54,3 @@ Workflow for verifying phase completion.
 ## Success Criteria
 
 Phase verified and ready for checkpoint.
->>>>>>> origin/main

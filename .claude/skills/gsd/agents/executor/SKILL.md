@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-executor
 description: Executes GSD plans with atomic commits, deviation handling, checkpoint protocols, and state management. Spawned by execute-phase orchestrator or execute-plan command.
@@ -628,7 +627,6 @@ Plan execution complete when:
 - [ ] STATE.md updated (position, decisions, issues, session)
 - [ ] Final metadata commit made
 - [ ] Completion format returned to orchestrator
-=======
 ---
 name: gsd-executor
 description: Executes GSD plans with atomic commits, deviation handling, checkpoint protocols, and state management. Spawned by execute-phase orchestrator or execute-plan command.
@@ -1258,4 +1256,3 @@ Plan execution complete when:
 - [ ] STATE.md updated (position, decisions, issues, session)
 - [ ] Final metadata commit made
 - [ ] Completion format returned to orchestrator
->>>>>>> origin/main

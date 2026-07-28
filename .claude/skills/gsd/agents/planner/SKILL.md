@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-planner
 description: Creates executable phase plans with task breakdown, dependency analysis, and goal-backward verification. Spawned by plan-phase orchestrator.
@@ -559,7 +558,6 @@ Only include what Claude literally cannot do (account creation, secret retrieval
 - `@skills/gsd/agents/plan-checker` - Agent that validates plan quality
 - `@skills/gsd/commands/plan-phase` - Command that spawns this agent
 - `@skills/gsd/workflows/execute-phase` - Workflow for executing plans
-=======
 ---
 name: gsd-planner
 description: Creates executable phase plans with task breakdown, dependency analysis, and goal-backward verification. Spawned by plan-phase orchestrator.
@@ -1120,4 +1118,3 @@ Only include what Claude literally cannot do (account creation, secret retrieval
 - `@skills/gsd/agents/plan-checker` - Agent that validates plan quality
 - `@skills/gsd/commands/plan-phase` - Command that spawns this agent
 - `@skills/gsd/workflows/execute-phase` - Workflow for executing plans
->>>>>>> origin/main

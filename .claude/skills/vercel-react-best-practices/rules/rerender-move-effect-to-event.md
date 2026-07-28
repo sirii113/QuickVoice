@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Put Interaction Logic in Event Handlers
 impact: MEDIUM
@@ -44,7 +43,6 @@ function Form() {
 ```
 
 Reference: [Should this code move to an event handler?](https://react.dev/learn/removing-effect-dependencies#should-this-code-move-to-an-event-handler)
-=======
 ---
 title: Put Interaction Logic in Event Handlers
 impact: MEDIUM
@@ -90,4 +88,3 @@ function Form() {
 ```
 
 Reference: [Should this code move to an event handler?](https://react.dev/learn/removing-effect-dependencies#should-this-code-move-to-an-event-handler)
->>>>>>> origin/main

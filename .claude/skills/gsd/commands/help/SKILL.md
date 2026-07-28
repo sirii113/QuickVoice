@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:help
 description: Display GSD help information
@@ -25,7 +24,6 @@ Displays GSD help and usage information.
 ## Success Criteria
 
 Help information displayed.
-=======
 ---
 name: gsd:help
 description: Display GSD help information
@@ -52,4 +50,3 @@ Displays GSD help and usage information.
 ## Success Criteria
 
 Help information displayed.
->>>>>>> origin/main

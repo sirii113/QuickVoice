@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Defer State Reads to Usage Point
 impact: MEDIUM
@@ -38,7 +37,6 @@ function ShareButton({ chatId }: { chatId: string }) {
   return <button onClick={handleShare}>Share</button>
 }
 ```
-=======
 ---
 title: Defer State Reads to Usage Point
 impact: MEDIUM
@@ -78,4 +76,3 @@ function ShareButton({ chatId }: { chatId: string }) {
   return <button onClick={handleShare}>Share</button>
 }
 ```
->>>>>>> origin/main

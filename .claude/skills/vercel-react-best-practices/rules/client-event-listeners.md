@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Deduplicate Global Event Listeners
 impact: LOW
@@ -73,7 +72,6 @@ function Profile() {
   // ...
 }
 ```
-=======
 ---
 title: Deduplicate Global Event Listeners
 impact: LOW
@@ -148,4 +146,3 @@ function Profile() {
   // ...
 }
 ```
->>>>>>> origin/main

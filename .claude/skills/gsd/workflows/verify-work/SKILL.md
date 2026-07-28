@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:verify-work
 description: Workflow for verifying completed work
@@ -27,7 +26,6 @@ Workflow for verifying completed work.
 ## Success Criteria
 
 Work verified with all checks passing.
-=======
 ---
 name: gsd:workflow:verify-work
 description: Workflow for verifying completed work
@@ -56,4 +54,3 @@ Workflow for verifying completed work.
 ## Success Criteria
 
 Work verified with all checks passing.
->>>>>>> origin/main

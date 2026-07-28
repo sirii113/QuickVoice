@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:research-phase
 description: Research specific phase implementation details
@@ -27,7 +26,6 @@ Researches phase-specific implementation using gsd-phase-researcher agent.
 ## Success Criteria
 
 Research documented and integrated into plan.
-=======
 ---
 name: gsd:research-phase
 description: Research specific phase implementation details
@@ -56,4 +54,3 @@ Researches phase-specific implementation using gsd-phase-researcher agent.
 ## Success Criteria
 
 Research documented and integrated into plan.
->>>>>>> origin/main

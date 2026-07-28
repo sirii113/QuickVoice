@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Avoid Duplicate Serialization in RSC Props
 impact: LOW
@@ -64,7 +63,6 @@ users={[{id:1},{id:2}]} sorted={users.toSorted()} // sends 2 arrays + 2 unique o
 ```
 
 **Exception:** Pass derived data when transformation is expensive or client doesn't need original.
-=======
 ---
 title: Avoid Duplicate Serialization in RSC Props
 impact: LOW
@@ -130,4 +128,3 @@ users={[{id:1},{id:2}]} sorted={users.toSorted()} // sends 2 arrays + 2 unique o
 ```
 
 **Exception:** Pass derived data when transformation is expensive or client doesn't need original.
->>>>>>> origin/main

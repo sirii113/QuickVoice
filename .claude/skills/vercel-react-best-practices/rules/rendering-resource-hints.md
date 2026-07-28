@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use React DOM Resource Hints
 impact: HIGH
@@ -84,7 +83,6 @@ function Navigation() {
 | `preinitModule` | ES modules that must execute early |
 
 Reference: [React DOM Resource Preloading APIs](https://react.dev/reference/react-dom#resource-preloading-apis)
-=======
 ---
 title: Use React DOM Resource Hints
 impact: HIGH
@@ -170,4 +168,3 @@ function Navigation() {
 | `preinitModule` | ES modules that must execute early |
 
 Reference: [React DOM Resource Preloading APIs](https://react.dev/reference/react-dom#resource-preloading-apis)
->>>>>>> origin/main

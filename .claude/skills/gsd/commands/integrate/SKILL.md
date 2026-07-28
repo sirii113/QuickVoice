@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:integrate
 description: Integrate changes and verify system-wide compatibility
@@ -27,7 +26,6 @@ Integrates changes using gsd-integration-checker agent.
 ## Success Criteria
 
 All integrations verified and working.
-=======
 ---
 name: gsd:integrate
 description: Integrate changes and verify system-wide compatibility
@@ -56,4 +54,3 @@ Integrates changes using gsd-integration-checker agent.
 ## Success Criteria
 
 All integrations verified and working.
->>>>>>> origin/main

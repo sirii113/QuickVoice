@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:complete-checkpoint
 description: Complete checkpoint and finalize phase
@@ -27,7 +26,6 @@ Completes a checkpoint and finalizes phase progress.
 ## Success Criteria
 
 Checkpoint completed and phase finalized.
-=======
 ---
 name: gsd:complete-checkpoint
 description: Complete checkpoint and finalize phase
@@ -56,4 +54,3 @@ Completes a checkpoint and finalizes phase progress.
 ## Success Criteria
 
 Checkpoint completed and phase finalized.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use Functional setState Updates
 impact: MEDIUM
@@ -73,7 +72,6 @@ function TodoList() {
 - State doesn't depend on previous value
 
 **Note:** If your project has [React Compiler](https://react.dev/learn/react-compiler) enabled, the compiler can automatically optimize some cases, but functional updates are still recommended for correctness and to prevent stale closure bugs.
-=======
 ---
 title: Use Functional setState Updates
 impact: MEDIUM
@@ -148,4 +146,3 @@ function TodoList() {
 - State doesn't depend on previous value
 
 **Note:** If your project has [React Compiler](https://react.dev/learn/react-compiler) enabled, the compiler can automatically optimize some cases, but functional updates are still recommended for correctness and to prevent stale closure bugs.
->>>>>>> origin/main

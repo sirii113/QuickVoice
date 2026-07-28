@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:review-plan
 description: Review and validate phase plans
@@ -27,7 +26,6 @@ Reviews phase plans using gsd-plan-checker agent for validation.
 ## Success Criteria
 
 Plan validated and approved for execution.
-=======
 ---
 name: gsd:review-plan
 description: Review and validate phase plans
@@ -56,4 +54,3 @@ Reviews phase plans using gsd-plan-checker agent for validation.
 ## Success Criteria
 
 Plan validated and approved for execution.
->>>>>>> origin/main

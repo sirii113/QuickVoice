@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Narrow Effect Dependencies
 impact: LOW
@@ -44,7 +43,6 @@ useEffect(() => {
   }
 }, [isMobile])
 ```
-=======
 ---
 title: Narrow Effect Dependencies
 impact: LOW
@@ -90,4 +88,3 @@ useEffect(() => {
   }
 }, [isMobile])
 ```
->>>>>>> origin/main

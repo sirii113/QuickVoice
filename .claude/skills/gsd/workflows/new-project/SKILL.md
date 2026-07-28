@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:new-project
 description: Complete workflow for starting a new GSD project
@@ -32,7 +31,6 @@ Run: `gsd:new-project`
 ## Success Criteria
 
 Project initialized with roadmap and ready for execution.
-=======
 ---
 name: gsd:workflow:new-project
 description: Complete workflow for starting a new GSD project
@@ -66,4 +64,3 @@ Run: `gsd:new-project`
 ## Success Criteria
 
 Project initialized with roadmap and ready for execution.
->>>>>>> origin/main

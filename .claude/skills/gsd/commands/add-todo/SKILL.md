@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:add-todo
 description: Add a todo item to track tasks
@@ -25,7 +24,6 @@ Adds a todo item for tracking.
 ## Success Criteria
 
 Todo item added and tracked.
-=======
 ---
 name: gsd:add-todo
 description: Add a todo item to track tasks
@@ -52,4 +50,3 @@ Adds a todo item for tracking.
 ## Success Criteria
 
 Todo item added and tracked.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:transition
 description: Workflow for project transitions
@@ -27,7 +26,6 @@ Workflow for managing project transitions.
 ## Success Criteria
 
 Transition completed successfully.
-=======
 ---
 name: gsd:workflow:transition
 description: Workflow for project transitions
@@ -56,4 +54,3 @@ Workflow for managing project transitions.
 ## Success Criteria
 
 Transition completed successfully.
->>>>>>> origin/main

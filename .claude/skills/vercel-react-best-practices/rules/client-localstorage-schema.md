@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Version and Minimize localStorage Data
 impact: MEDIUM
@@ -70,7 +69,6 @@ function cachePrefs(user: FullUser) {
 **Always wrap in try-catch:** `getItem()` and `setItem()` throw in incognito/private browsing (Safari, Firefox), when quota exceeded, or when disabled.
 
 **Benefits:** Schema evolution via versioning, reduced storage size, prevents storing tokens/PII/internal flags.
-=======
 ---
 title: Version and Minimize localStorage Data
 impact: MEDIUM
@@ -142,4 +140,3 @@ function cachePrefs(user: FullUser) {
 **Always wrap in try-catch:** `getItem()` and `setItem()` throw in incognito/private browsing (Safari, Firefox), when quota exceeded, or when disabled.
 
 **Benefits:** Schema evolution via versioning, reduced storage size, prevents storing tokens/PII/internal flags.
->>>>>>> origin/main

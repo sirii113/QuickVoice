@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:update
 description: Update project state and documents
@@ -25,7 +24,6 @@ Updates project state and documents.
 ## Success Criteria
 
 Project updated with changes.
-=======
 ---
 name: gsd:update
 description: Update project state and documents
@@ -52,4 +50,3 @@ Updates project state and documents.
 ## Success Criteria
 
 Project updated with changes.
->>>>>>> origin/main

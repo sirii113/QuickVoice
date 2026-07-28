@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:diagnose-issues
 description: Workflow for diagnosing project issues
@@ -27,7 +26,6 @@ Workflow for diagnosing and resolving project issues.
 ## Success Criteria
 
 Issues diagnosed and resolved.
-=======
 ---
 name: gsd:workflow:diagnose-issues
 description: Workflow for diagnosing project issues
@@ -56,4 +54,3 @@ Workflow for diagnosing and resolving project issues.
 ## Success Criteria
 
 Issues diagnosed and resolved.
->>>>>>> origin/main

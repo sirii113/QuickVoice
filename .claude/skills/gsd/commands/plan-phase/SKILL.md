@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:plan-phase
 description: Create detailed execution plan for a project phase
@@ -38,7 +37,6 @@ Complete phase plan with all tasks documented.
 
 @skills/gsd/agents/planner - Agent that creates detailed plans
 @skills/gsd/commands/new-project - Creates initial project structure
-=======
 ---
 name: gsd:plan-phase
 description: Create detailed execution plan for a project phase
@@ -78,4 +76,3 @@ Complete phase plan with all tasks documented.
 
 @skills/gsd/agents/planner - Agent that creates detailed plans
 @skills/gsd/commands/new-project - Creates initial project structure
->>>>>>> origin/main

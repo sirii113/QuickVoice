@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use Set/Map for O(1) Lookups
 impact: LOW-MEDIUM
@@ -23,7 +22,6 @@ items.filter(item => allowedIds.includes(item.id))
 const allowedIds = new Set(['a', 'b', 'c', ...])
 items.filter(item => allowedIds.has(item.id))
 ```
-=======
 ---
 title: Use Set/Map for O(1) Lookups
 impact: LOW-MEDIUM
@@ -48,4 +46,3 @@ items.filter(item => allowedIds.includes(item.id))
 const allowedIds = new Set(['a', 'b', 'c', ...])
 items.filter(item => allowedIds.has(item.id))
 ```
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Defer Await Until Needed
 impact: HIGH
@@ -81,7 +80,6 @@ async function updateResource(resourceId: string, userId: string) {
 This optimization is especially valuable when the skipped branch is frequently taken, or when the deferred operation is expensive.
 
 For `await getFlag()` combined with a cheap synchronous guard (`flag && someCondition`), see [Check Cheap Conditions Before Async Flags](./async-cheap-condition-before-await.md).
-=======
 ---
 title: Defer Await Until Needed
 impact: HIGH
@@ -164,4 +162,3 @@ async function updateResource(resourceId: string, userId: string) {
 This optimization is especially valuable when the skipped branch is frequently taken, or when the deferred operation is expensive.
 
 For `await getFlag()` combined with a cheap synchronous guard (`flag && someCondition`), see [Check Cheap Conditions Before Async Flags](./async-cheap-condition-before-await.md).
->>>>>>> origin/main

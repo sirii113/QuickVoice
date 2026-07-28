@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:roadmap
 description: Create project roadmap with phases and waves
@@ -32,7 +31,6 @@ Creates project roadmap using gsd-roadmapper agent.
 ## Success Criteria
 
 Complete roadmap with phases and waves.
-=======
 ---
 name: gsd:roadmap
 description: Create project roadmap with phases and waves
@@ -66,4 +64,3 @@ Creates project roadmap using gsd-roadmapper agent.
 ## Success Criteria
 
 Complete roadmap with phases and waves.
->>>>>>> origin/main

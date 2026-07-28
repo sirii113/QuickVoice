@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:whats-new
 description: Show what's new in GSD
@@ -25,7 +24,6 @@ Shows new features and changes in GSD.
 ## Success Criteria
 
 New features displayed.
-=======
 ---
 name: gsd:whats-new
 description: Show what's new in GSD
@@ -52,4 +50,3 @@ Shows new features and changes in GSD.
 ## Success Criteria
 
 New features displayed.
->>>>>>> origin/main

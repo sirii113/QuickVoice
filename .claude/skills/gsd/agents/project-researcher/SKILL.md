@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-project-researcher
 description: Researches domain ecosystem for project initialization. Spawned by /gsd:new-project orchestrator (4 parallel agents).
@@ -447,7 +446,6 @@ Before returning research complete, ensure:
 - `@skills/gsd/agents/research-synthesizer` - Agent that synthesizes your output
 - `@skills/gsd/agents/roadmapper` - Agent that uses your research to create roadmap
 - `@skills/gsd/commands/new-project` - Command that spawns you
-=======
 ---
 name: gsd-project-researcher
 description: Researches domain ecosystem for project initialization. Spawned by /gsd:new-project orchestrator (4 parallel agents).
@@ -896,4 +894,3 @@ Before returning research complete, ensure:
 - `@skills/gsd/agents/research-synthesizer` - Agent that synthesizes your output
 - `@skills/gsd/agents/roadmapper` - Agent that uses your research to create roadmap
 - `@skills/gsd/commands/new-project` - Command that spawns you
->>>>>>> origin/main

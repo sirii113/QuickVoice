@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:discovery-phase
 description: Workflow for project discovery phase
@@ -27,7 +26,6 @@ Workflow for project discovery and exploration.
 ## Success Criteria
 
 Discovery complete with requirements documented.
-=======
 ---
 name: gsd:workflow:discovery-phase
 description: Workflow for project discovery phase
@@ -56,4 +54,3 @@ Workflow for project discovery and exploration.
 ## Success Criteria
 
 Discovery complete with requirements documented.
->>>>>>> origin/main

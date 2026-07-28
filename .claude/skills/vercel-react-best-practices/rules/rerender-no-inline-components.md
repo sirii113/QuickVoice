@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Don't Define Components Inside Components
 impact: HIGH
@@ -81,7 +80,6 @@ function UserProfile({ user, theme }) {
 - Animations restart unexpectedly
 - `useEffect` cleanup/setup runs on every parent render
 - Scroll position resets inside the component
-=======
 ---
 title: Don't Define Components Inside Components
 impact: HIGH
@@ -164,4 +162,3 @@ function UserProfile({ user, theme }) {
 - Animations restart unexpectedly
 - `useEffect` cleanup/setup runs on every parent render
 - Scroll position resets inside the component
->>>>>>> origin/main

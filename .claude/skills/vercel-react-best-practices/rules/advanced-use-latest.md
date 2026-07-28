@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: useEffectEvent for Stable Callback Refs
 impact: LOW
@@ -38,7 +37,6 @@ function SearchInput({ onSearch }: { onSearch: (q: string) => void }) {
   }, [query])
 }
 ```
-=======
 ---
 title: useEffectEvent for Stable Callback Refs
 impact: LOW
@@ -78,4 +76,3 @@ function SearchInput({ onSearch }: { onSearch: (q: string) => void }) {
   }, [query])
 }
 ```
->>>>>>> origin/main

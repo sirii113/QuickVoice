@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use Explicit Conditional Rendering
 impact: LOW
@@ -39,7 +38,6 @@ function Badge({ count }: { count: number }) {
 // When count = 0, renders: <div></div>
 // When count = 5, renders: <div><span class="badge">5</span></div>
 ```
-=======
 ---
 title: Use Explicit Conditional Rendering
 impact: LOW
@@ -80,4 +78,3 @@ function Badge({ count }: { count: number }) {
 // When count = 0, renders: <div></div>
 // When count = 5, renders: <div><span class="badge">5</span></div>
 ```
->>>>>>> origin/main

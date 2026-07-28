@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:reference:git-integration
 description: Git integration reference for GSD
@@ -34,7 +33,6 @@ Guide for using Git with GSD workflow.
 ## Success Criteria
 
 Clean git history with traceable changes.
-=======
 ---
 name: gsd:reference:git-integration
 description: Git integration reference for GSD
@@ -70,4 +68,3 @@ Guide for using Git with GSD workflow.
 ## Success Criteria
 
 Clean git history with traceable changes.
->>>>>>> origin/main

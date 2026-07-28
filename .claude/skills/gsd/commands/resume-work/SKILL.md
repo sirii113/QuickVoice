@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:resume-work
 description: Resume paused work
@@ -25,7 +24,6 @@ Resumes paused work session.
 ## Success Criteria
 
 Work resumed from saved state.
-=======
 ---
 name: gsd:resume-work
 description: Resume paused work
@@ -52,4 +50,3 @@ Resumes paused work session.
 ## Success Criteria
 
 Work resumed from saved state.
->>>>>>> origin/main

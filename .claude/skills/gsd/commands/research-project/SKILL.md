@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:research-project
 description: Research project domain and requirements
@@ -27,7 +26,6 @@ Researches project domain using gsd-project-researcher agent.
 ## Success Criteria
 
 Domain documented and requirements clarified.
-=======
 ---
 name: gsd:research-project
 description: Research project domain and requirements
@@ -56,4 +54,3 @@ Researches project domain using gsd-project-researcher agent.
 ## Success Criteria
 
 Domain documented and requirements clarified.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-codebase-mapper
 description: Explores codebase and writes structured analysis documents. Spawned by map-codebase with a focus area.
@@ -726,7 +725,6 @@ Ready for orchestrator summary.
 
 - `@skills/gsd/commands/map-codebase` - Command that spawns this agent
 - `@skills/gsd/references/git-integration` - Git workflow patterns
-=======
 ---
 name: gsd-codebase-mapper
 description: Explores codebase and writes structured analysis documents. Spawned by map-codebase with a focus area.
@@ -1454,4 +1452,3 @@ Ready for orchestrator summary.
 
 - `@skills/gsd/commands/map-codebase` - Command that spawns this agent
 - `@skills/gsd/references/git-integration` - Git workflow patterns
->>>>>>> origin/main

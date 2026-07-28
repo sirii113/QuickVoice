@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:list-phase-assumptions
 description: List phase assumptions and dependencies
@@ -25,7 +24,6 @@ Lists phase assumptions and dependencies.
 ## Success Criteria
 
 Assumptions listed and documented.
-=======
 ---
 name: gsd:list-phase-assumptions
 description: List phase assumptions and dependencies
@@ -52,4 +50,3 @@ Lists phase assumptions and dependencies.
 ## Success Criteria
 
 Assumptions listed and documented.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 
 title: Extract Default Non-primitive Parameter Value from Memoized Component to Constant
@@ -37,7 +36,6 @@ const UserAvatar = memo(function UserAvatar({ onClick = NOOP }: { onClick?: () =
 // Used without optional onClick
 <UserAvatar />
 ```
-=======
 ---
 
 title: Extract Default Non-primitive Parameter Value from Memoized Component to Constant
@@ -76,4 +74,3 @@ const UserAvatar = memo(function UserAvatar({ onClick = NOOP }: { onClick?: () =
 // Used without optional onClick
 <UserAvatar />
 ```
->>>>>>> origin/main

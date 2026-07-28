@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:research
 description: Workflow for conducting research
@@ -34,7 +33,6 @@ Workflow for conducting project or phase research.
 ## Success Criteria
 
 Research completed with actionable insights.
-=======
 ---
 name: gsd:workflow:research
 description: Workflow for conducting research
@@ -70,4 +68,3 @@ Workflow for conducting project or phase research.
 ## Success Criteria
 
 Research completed with actionable insights.
->>>>>>> origin/main

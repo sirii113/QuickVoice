@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Combine Multiple Array Iterations
 impact: LOW-MEDIUM
@@ -31,7 +30,6 @@ for (const user of users) {
   if (!user.isActive) inactive.push(user)
 }
 ```
-=======
 ---
 title: Combine Multiple Array Iterations
 impact: LOW-MEDIUM
@@ -64,4 +62,3 @@ for (const user of users) {
   if (!user.isActive) inactive.push(user)
 }
 ```
->>>>>>> origin/main

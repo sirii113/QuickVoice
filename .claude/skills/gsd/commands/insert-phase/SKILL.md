@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:insert-phase
 description: Insert a phase into the roadmap
@@ -25,7 +24,6 @@ Inserts a phase into the roadmap at specific position.
 ## Success Criteria
 
 Phase inserted into roadmap.
-=======
 ---
 name: gsd:insert-phase
 description: Insert a phase into the roadmap
@@ -52,4 +50,3 @@ Inserts a phase into the roadmap at specific position.
 ## Success Criteria
 
 Phase inserted into roadmap.
->>>>>>> origin/main

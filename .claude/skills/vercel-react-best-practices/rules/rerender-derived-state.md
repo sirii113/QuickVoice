@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Subscribe to Derived State
 impact: MEDIUM
@@ -28,7 +27,6 @@ function Sidebar() {
   return <nav className={isMobile ? 'mobile' : 'desktop'} />
 }
 ```
-=======
 ---
 title: Subscribe to Derived State
 impact: MEDIUM
@@ -58,4 +56,3 @@ function Sidebar() {
   return <nav className={isMobile ? 'mobile' : 'desktop'} />
 }
 ```
->>>>>>> origin/main

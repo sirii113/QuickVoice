@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:progress
 description: Show project progress
@@ -25,7 +24,6 @@ Shows project progress and status.
 ## Success Criteria
 
 Progress displayed.
-=======
 ---
 name: gsd:progress
 description: Show project progress
@@ -52,4 +50,3 @@ Shows project progress and status.
 ## Success Criteria
 
 Progress displayed.
->>>>>>> origin/main

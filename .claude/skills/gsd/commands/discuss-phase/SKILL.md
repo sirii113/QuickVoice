@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:discuss-phase
 description: Discuss phase details and approach
@@ -27,7 +26,6 @@ Discusses phase details with user.
 ## Success Criteria
 
 Discussion completed with decisions captured.
-=======
 ---
 name: gsd:discuss-phase
 description: Discuss phase details and approach
@@ -56,4 +54,3 @@ Discusses phase details with user.
 ## Success Criteria
 
 Discussion completed with decisions captured.
->>>>>>> origin/main

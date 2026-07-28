@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-debugger
 description: Investigates bugs using scientific method, manages debug sessions, handles checkpoints. Spawned by /gsd:debug orchestrator or diagnose-issues workflow.
@@ -689,7 +688,6 @@ Check for mode flags in prompt context:
 
 - `@skills/gsd/agents/executor` - Agent that executes plans (you may debug issues found during execution)
 - `@skills/gsd/agents/verifier` - Agent that verifies phase completion (you may debug verification failures)
-=======
 ---
 name: gsd-debugger
 description: Investigates bugs using scientific method, manages debug sessions, handles checkpoints. Spawned by /gsd:debug orchestrator or diagnose-issues workflow.
@@ -1380,4 +1378,3 @@ Check for mode flags in prompt context:
 
 - `@skills/gsd/agents/executor` - Agent that executes plans (you may debug issues found during execution)
 - `@skills/gsd/agents/verifier` - Agent that verifies phase completion (you may debug verification failures)
->>>>>>> origin/main

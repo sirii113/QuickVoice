@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Avoid Shared Module State for Request Data
 impact: HIGH
@@ -49,7 +48,6 @@ Safe exceptions:
 - Process-wide singletons that do not store request- or user-specific mutable data
 
 For static assets and config, see [Hoist Static I/O to Module Level](./server-hoist-static-io.md).
-=======
 ---
 title: Avoid Shared Module State for Request Data
 impact: HIGH
@@ -100,4 +98,3 @@ Safe exceptions:
 - Process-wide singletons that do not store request- or user-specific mutable data
 
 For static assets and config, see [Hoist Static I/O to Module Level](./server-hoist-static-io.md).
->>>>>>> origin/main

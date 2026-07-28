@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:brownfield
 description: Workflow for working with existing codebase
@@ -33,7 +32,6 @@ Run: `gsd:map-codebase`
 ## Success Criteria
 
 Codebase documented and ready for new development.
-=======
 ---
 name: gsd:workflow:brownfield
 description: Workflow for working with existing codebase
@@ -68,4 +66,3 @@ Run: `gsd:map-codebase`
 ## Success Criteria
 
 Codebase documented and ready for new development.
->>>>>>> origin/main

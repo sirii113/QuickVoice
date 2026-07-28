@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:new-milestone
 description: Create a new project milestone
@@ -25,7 +24,6 @@ Creates a new project milestone.
 ## Success Criteria
 
 Milestone created and documented.
-=======
 ---
 name: gsd:new-milestone
 description: Create a new project milestone
@@ -52,4 +50,3 @@ Creates a new project milestone.
 ## Success Criteria
 
 Milestone created and documented.
->>>>>>> origin/main

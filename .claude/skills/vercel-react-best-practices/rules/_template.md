@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Rule Title Here
 impact: MEDIUM
@@ -27,7 +26,6 @@ const good = example()
 ```
 
 Reference: [Link to documentation or resource](https://example.com)
-=======
 ---
 title: Rule Title Here
 impact: MEDIUM
@@ -56,4 +54,3 @@ const good = example()
 ```
 
 Reference: [Link to documentation or resource](https://example.com)
->>>>>>> origin/main

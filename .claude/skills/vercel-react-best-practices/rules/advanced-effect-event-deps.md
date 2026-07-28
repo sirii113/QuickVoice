@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Do Not Put Effect Events in Dependency Arrays
 impact: LOW
@@ -55,7 +54,6 @@ function ChatRoom({ roomId, onConnected }: {
 ```
 
 Reference: [React useEffectEvent: Effect Event in deps](https://react.dev/reference/react/useEffectEvent#effect-event-in-deps)
-=======
 ---
 title: Do Not Put Effect Events in Dependency Arrays
 impact: LOW
@@ -112,4 +110,3 @@ function ChatRoom({ roomId, onConnected }: {
 ```
 
 Reference: [React useEffectEvent: Effect Event in deps](https://react.dev/reference/react/useEffectEvent#effect-event-in-deps)
->>>>>>> origin/main

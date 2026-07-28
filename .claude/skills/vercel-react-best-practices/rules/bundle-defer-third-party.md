@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Defer Non-Critical Third-Party Libraries
 impact: MEDIUM
@@ -48,7 +47,6 @@ export default function RootLayout({ children }) {
   )
 }
 ```
-=======
 ---
 title: Defer Non-Critical Third-Party Libraries
 impact: MEDIUM
@@ -98,4 +96,3 @@ export default function RootLayout({ children }) {
   )
 }
 ```
->>>>>>> origin/main

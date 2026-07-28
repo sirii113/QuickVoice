@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:check-todos
 description: Check todo list status
@@ -25,7 +24,6 @@ Checks todo list status.
 ## Success Criteria
 
 Todo status reported.
-=======
 ---
 name: gsd:check-todos
 description: Check todo list status
@@ -52,4 +50,3 @@ Checks todo list status.
 ## Success Criteria
 
 Todo status reported.
->>>>>>> origin/main

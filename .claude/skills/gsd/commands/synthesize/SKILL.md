@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:synthesize
 description: Synthesize research findings into actionable insights
@@ -27,7 +26,6 @@ Synthesizes research findings using gsd-research-synthesizer agent.
 ## Success Criteria
 
 Research synthesized into actionable insights.
-=======
 ---
 name: gsd:synthesize
 description: Synthesize research findings into actionable insights
@@ -56,4 +54,3 @@ Synthesizes research findings using gsd-research-synthesizer agent.
 ## Success Criteria
 
 Research synthesized into actionable insights.
->>>>>>> origin/main

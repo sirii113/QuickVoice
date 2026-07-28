@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-plan-checker
 description: Validates plan quality by checking task completeness, dependency correctness, and scope sanity. Spawned by /gsd:plan-phase orchestrator.
@@ -345,7 +344,6 @@ Write to `.planning/phases/{phase_dir}/{phase}-VERIFICATION-CHECKER.md`
 
 - `@skills/gsd/agents/planner` - Agent that created the plans being validated
 - `@skills/gsd/agents/executor` - Agent that will execute the plans
-=======
 ---
 name: gsd-plan-checker
 description: Validates plan quality by checking task completeness, dependency correctness, and scope sanity. Spawned by /gsd:plan-phase orchestrator.
@@ -692,4 +690,3 @@ Write to `.planning/phases/{phase_dir}/{phase}-VERIFICATION-CHECKER.md`
 
 - `@skills/gsd/agents/planner` - Agent that created the plans being validated
 - `@skills/gsd/agents/executor` - Agent that will execute the plans
->>>>>>> origin/main

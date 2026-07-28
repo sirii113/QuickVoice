@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use toSorted() Instead of sort() for Immutability
 impact: MEDIUM-HIGH
@@ -56,7 +55,6 @@ const sorted = [...items].sort((a, b) => a.value - b.value)
 - `.toReversed()` - immutable reverse
 - `.toSpliced()` - immutable splice
 - `.with()` - immutable element replacement
-=======
 ---
 title: Use toSorted() Instead of sort() for Immutability
 impact: MEDIUM-HIGH
@@ -114,4 +112,3 @@ const sorted = [...items].sort((a, b) => a.value - b.value)
 - `.toReversed()` - immutable reverse
 - `.toSpliced()` - immutable splice
 - `.with()` - immutable element replacement
->>>>>>> origin/main

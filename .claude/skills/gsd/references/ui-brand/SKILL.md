@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:reference:ui-brand
 description: UI and brand guidelines for GSD projects
@@ -35,7 +34,6 @@ UI and brand guidelines for consistent design.
 ## Success Criteria
 
 UI consistent with brand guidelines.
-=======
 ---
 name: gsd:reference:ui-brand
 description: UI and brand guidelines for GSD projects
@@ -72,4 +70,3 @@ UI and brand guidelines for consistent design.
 ## Success Criteria
 
 UI consistent with brand guidelines.
->>>>>>> origin/main

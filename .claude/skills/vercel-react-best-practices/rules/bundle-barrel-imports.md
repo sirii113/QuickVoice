@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Avoid Barrel File Imports
 impact: CRITICAL
@@ -59,7 +58,6 @@ These optimizations provide 15-70% faster dev boot, 28% faster builds, 40% faste
 Libraries commonly affected: `lucide-react`, `@mui/material`, `@mui/icons-material`, `@tabler/icons-react`, `react-icons`, `@headlessui/react`, `@radix-ui/react-*`, `lodash`, `ramda`, `date-fns`, `rxjs`, `react-use`.
 
 Reference: [How we optimized package imports in Next.js](https://vercel.com/blog/how-we-optimized-package-imports-in-next-js)
-=======
 ---
 title: Avoid Barrel File Imports
 impact: CRITICAL
@@ -120,4 +118,3 @@ These optimizations provide 15-70% faster dev boot, 28% faster builds, 40% faste
 Libraries commonly affected: `lucide-react`, `@mui/material`, `@mui/icons-material`, `@tabler/icons-react`, `react-icons`, `@headlessui/react`, `@radix-ui/react-*`, `lodash`, `ramda`, `date-fns`, `rxjs`, `react-use`.
 
 Reference: [How we optimized package imports in Next.js](https://vercel.com/blog/how-we-optimized-package-imports-in-next-js)
->>>>>>> origin/main

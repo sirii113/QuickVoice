@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use Activity Component for Show/Hide
 impact: MEDIUM
@@ -25,7 +24,6 @@ function Dropdown({ isOpen }: Props) {
 ```
 
 Avoids expensive re-renders and state loss.
-=======
 ---
 title: Use Activity Component for Show/Hide
 impact: MEDIUM
@@ -52,4 +50,3 @@ function Dropdown({ isOpen }: Props) {
 ```
 
 Avoids expensive re-renders and state loss.
->>>>>>> origin/main

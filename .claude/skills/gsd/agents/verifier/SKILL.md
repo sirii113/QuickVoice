@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-verifier
 description: Verifies phase goal achievement through goal-backward analysis. Checks codebase delivers what phase promised, not just that tasks completed.
@@ -662,7 +661,6 @@ Automated checks passed. Awaiting human verification.
 - `@skills/gsd/agents/executor` - Agent that executes plans (you verify what was actually built)
 - `@skills/gsd/agents/planner` - Agent that creates plans (you verify they can achieve goals)
 - `@skills/gsd/commands/verify-work` - Command that spawns this agent
-=======
 ---
 name: gsd-verifier
 description: Verifies phase goal achievement through goal-backward analysis. Checks codebase delivers what phase promised, not just that tasks completed.
@@ -1326,4 +1324,3 @@ Automated checks passed. Awaiting human verification.
 - `@skills/gsd/agents/executor` - Agent that executes plans (you verify what was actually built)
 - `@skills/gsd/agents/planner` - Agent that creates plans (you verify they can achieve goals)
 - `@skills/gsd/commands/verify-work` - Command that spawns this agent
->>>>>>> origin/main

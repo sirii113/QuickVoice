@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:debug
 description: Debug issues using systematic investigation
@@ -41,7 +40,6 @@ Issue identified and fixed with verification.
 
 @skills/gsd/agents/debugger - Agent that investigates issues
 @skills/gsd/commands/verify-work - Verifies fixes
-=======
 ---
 name: gsd:debug
 description: Debug issues using systematic investigation
@@ -84,4 +82,3 @@ Issue identified and fixed with verification.
 
 @skills/gsd/agents/debugger - Agent that investigates issues
 @skills/gsd/commands/verify-work - Verifies fixes
->>>>>>> origin/main

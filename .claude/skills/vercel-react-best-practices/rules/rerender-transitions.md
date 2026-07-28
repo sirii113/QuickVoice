@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use Transitions for Non-Urgent Updates
 impact: MEDIUM
@@ -39,7 +38,6 @@ function ScrollTracker() {
   }, [])
 }
 ```
-=======
 ---
 title: Use Transitions for Non-Urgent Updates
 impact: MEDIUM
@@ -80,4 +78,3 @@ function ScrollTracker() {
   }, [])
 }
 ```
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:pause-work
 description: Pause current work
@@ -25,7 +24,6 @@ Pauses current work session.
 ## Success Criteria
 
 Work paused with state saved.
-=======
 ---
 name: gsd:pause-work
 description: Pause current work
@@ -52,4 +50,3 @@ Pauses current work session.
 ## Success Criteria
 
 Work paused with state saved.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:complete-milestone
 description: Complete a project milestone
@@ -25,7 +24,6 @@ Completes a project milestone.
 ## Success Criteria
 
 Milestone completed and archived.
-=======
 ---
 name: gsd:complete-milestone
 description: Complete a project milestone
@@ -52,4 +50,3 @@ Completes a project milestone.
 ## Success Criteria
 
 Milestone completed and archived.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:resume-project
 description: Workflow for resuming a paused project
@@ -27,7 +26,6 @@ Workflow for resuming a paused or interrupted project.
 ## Success Criteria
 
 Project resumed from saved state.
-=======
 ---
 name: gsd:workflow:resume-project
 description: Workflow for resuming a paused project
@@ -56,4 +54,3 @@ Workflow for resuming a paused or interrupted project.
 ## Success Criteria
 
 Project resumed from saved state.
->>>>>>> origin/main

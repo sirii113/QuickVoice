@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Optimize SVG Precision
 impact: LOW
@@ -27,7 +26,6 @@ Reduce SVG coordinate precision to decrease file size. The optimal precision dep
 ```bash
 npx svgo --precision=1 --multipass icon.svg
 ```
-=======
 ---
 title: Optimize SVG Precision
 impact: LOW
@@ -56,4 +54,3 @@ Reduce SVG coordinate precision to decrease file size. The optimal precision dep
 ```bash
 npx svgo --precision=1 --multipass icon.svg
 ```
->>>>>>> origin/main

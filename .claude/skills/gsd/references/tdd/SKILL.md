@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:reference:tdd
 description: Test-Driven Development patterns for GSD
@@ -34,7 +33,6 @@ Test-Driven Development patterns and practices.
 ## Success Criteria
 
 Tests written before implementation, all passing.
-=======
 ---
 name: gsd:reference:tdd
 description: Test-Driven Development patterns for GSD
@@ -70,4 +68,3 @@ Test-Driven Development patterns and practices.
 ## Success Criteria
 
 Tests written before implementation, all passing.
->>>>>>> origin/main

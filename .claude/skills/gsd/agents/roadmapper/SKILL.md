@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-roadmapper
 description: Creates project roadmaps with phase breakdown, requirement mapping, success criteria derivation, and coverage validation. Spawned by /gsd:new-project orchestrator.
@@ -539,7 +538,6 @@ When unable to proceed:
 - `@skills/gsd/agents/planner` - Agent that creates plans from your roadmap
 - `@skills/gsd/agents/research-synthesizer` - Agent that provides research summaries
 - `@skills/gsd/commands/new-project` - Command that spawns you
-=======
 ---
 name: gsd-roadmapper
 description: Creates project roadmaps with phase breakdown, requirement mapping, success criteria derivation, and coverage validation. Spawned by /gsd:new-project orchestrator.
@@ -1080,4 +1078,3 @@ When unable to proceed:
 - `@skills/gsd/agents/planner` - Agent that creates plans from your roadmap
 - `@skills/gsd/agents/research-synthesizer` - Agent that provides research summaries
 - `@skills/gsd/commands/new-project` - Command that spawns you
->>>>>>> origin/main

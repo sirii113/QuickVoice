@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Parallel Data Fetching with Component Composition
 impact: CRITICAL
@@ -82,7 +81,6 @@ export default function Page() {
   )
 }
 ```
-=======
 ---
 title: Parallel Data Fetching with Component Composition
 impact: CRITICAL
@@ -166,4 +164,3 @@ export default function Page() {
   )
 }
 ```
->>>>>>> origin/main

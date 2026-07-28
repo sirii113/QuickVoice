@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use Passive Event Listeners for Scrolling Performance
 impact: MEDIUM
@@ -47,7 +46,6 @@ useEffect(() => {
 **Use passive when:** tracking/analytics, logging, any listener that doesn't call `preventDefault()`.
 
 **Don't use passive when:** implementing custom swipe gestures, custom zoom controls, or any listener that needs `preventDefault()`.
-=======
 ---
 title: Use Passive Event Listeners for Scrolling Performance
 impact: MEDIUM
@@ -96,4 +94,3 @@ useEffect(() => {
 **Use passive when:** tracking/analytics, logging, any listener that doesn't call `preventDefault()`.
 
 **Don't use passive when:** implementing custom swipe gestures, custom zoom controls, or any listener that needs `preventDefault()`.
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Authenticate Server Actions Like API Routes
 impact: CRITICAL
@@ -95,7 +94,6 @@ export async function updateProfile(data: unknown) {
 ```
 
 Reference: [https://nextjs.org/docs/app/guides/authentication](https://nextjs.org/docs/app/guides/authentication)
-=======
 ---
 title: Authenticate Server Actions Like API Routes
 impact: CRITICAL
@@ -192,4 +190,3 @@ export async function updateProfile(data: unknown) {
 ```
 
 Reference: [https://nextjs.org/docs/app/guides/authentication](https://nextjs.org/docs/app/guides/authentication)
->>>>>>> origin/main

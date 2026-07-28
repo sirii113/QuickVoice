@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd-phase-researcher
 description: Researches phase implementation for planning. Spawned by /gsd:plan-phase or /gsd:research-phase orchestrators.
@@ -270,7 +269,6 @@ Return brief confirmation without including document contents:
 - `@skills/gsd/agents/planner` - Agent that will use your DISCOVERY.md to create plans
 - `@skills/gsd/agents/codebase-mapper` - For understanding existing codebase patterns
 - `@skills/gsd/references/git-integration` - For checking existing implementations
-=======
 ---
 name: gsd-phase-researcher
 description: Researches phase implementation for planning. Spawned by /gsd:plan-phase or /gsd:research-phase orchestrators.
@@ -542,4 +540,3 @@ Return brief confirmation without including document contents:
 - `@skills/gsd/agents/planner` - Agent that will use your DISCOVERY.md to create plans
 - `@skills/gsd/agents/codebase-mapper` - For understanding existing codebase patterns
 - `@skills/gsd/references/git-integration` - For checking existing implementations
->>>>>>> origin/main

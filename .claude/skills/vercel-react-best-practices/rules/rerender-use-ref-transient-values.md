@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use useRef for Transient Values
 impact: MEDIUM
@@ -72,7 +71,6 @@ function Tracker() {
   )
 }
 ```
-=======
 ---
 title: Use useRef for Transient Values
 impact: MEDIUM
@@ -146,4 +144,3 @@ function Tracker() {
   )
 }
 ```
->>>>>>> origin/main

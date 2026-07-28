@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Promise.all() for Independent Operations
 impact: CRITICAL
@@ -27,7 +26,6 @@ const [user, posts, comments] = await Promise.all([
   fetchComments()
 ])
 ```
-=======
 ---
 title: Promise.all() for Independent Operations
 impact: CRITICAL
@@ -56,4 +54,3 @@ const [user, posts, comments] = await Promise.all([
   fetchComments()
 ])
 ```
->>>>>>> origin/main

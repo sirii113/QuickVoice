@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd
 description: Get Shit Done (GSD) - A comprehensive project management system for solo developers using Claude agents
@@ -240,7 +239,6 @@ Each agent, command, and workflow has its own SKILL.md with detailed instruction
 
 GSD Version: 1.0.0
 Last Updated: 2026-01-19
-=======
 ---
 name: gsd
 description: Get Shit Done (GSD) - A comprehensive project management system for solo developers using Claude agents
@@ -482,4 +480,3 @@ Each agent, command, and workflow has its own SKILL.md with detailed instruction
 
 GSD Version: 1.0.0
 Last Updated: 2026-01-19
->>>>>>> origin/main

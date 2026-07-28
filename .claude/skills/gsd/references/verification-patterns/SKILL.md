@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:reference:verification-patterns
 description: Verification patterns for GSD quality assurance
@@ -34,7 +33,6 @@ Patterns for verifying implementation quality.
 ## Success Criteria
 
 All verification checks pass.
-=======
 ---
 name: gsd:reference:verification-patterns
 description: Verification patterns for GSD quality assurance
@@ -70,4 +68,3 @@ Patterns for verifying implementation quality.
 ## Success Criteria
 
 All verification checks pass.
->>>>>>> origin/main

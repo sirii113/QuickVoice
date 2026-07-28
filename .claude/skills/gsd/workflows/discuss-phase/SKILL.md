@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:discuss-phase
 description: Workflow for discussing phase details
@@ -27,7 +26,6 @@ Workflow for discussing phase details with user.
 ## Success Criteria
 
 Discussion complete with decisions captured.
-=======
 ---
 name: gsd:workflow:discuss-phase
 description: Workflow for discussing phase details
@@ -56,4 +54,3 @@ Workflow for discussing phase details with user.
 ## Success Criteria
 
 Discussion complete with decisions captured.
->>>>>>> origin/main

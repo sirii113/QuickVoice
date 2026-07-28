@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Animate SVG Wrapper Instead of SVG Element
 impact: LOW
@@ -46,7 +45,6 @@ function LoadingSpinner() {
 ```
 
 This applies to all CSS transforms and transitions (`transform`, `opacity`, `translate`, `scale`, `rotate`). The wrapper div allows browsers to use GPU acceleration for smoother animations.
-=======
 ---
 title: Animate SVG Wrapper Instead of SVG Element
 impact: LOW
@@ -94,4 +92,3 @@ function LoadingSpinner() {
 ```
 
 This applies to all CSS transforms and transitions (`transform`, `opacity`, `translate`, `scale`, `rotate`). The wrapper div allows browsers to use GPU acceleration for smoother animations.
->>>>>>> origin/main

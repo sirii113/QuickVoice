@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Use SWR for Automatic Deduplication
 impact: MEDIUM-HIGH
@@ -55,7 +54,6 @@ function UpdateButton() {
 ```
 
 Reference: [https://swr.vercel.app](https://swr.vercel.app)
-=======
 ---
 title: Use SWR for Automatic Deduplication
 impact: MEDIUM-HIGH
@@ -112,4 +110,3 @@ function UpdateButton() {
 ```
 
 Reference: [https://swr.vercel.app](https://swr.vercel.app)
->>>>>>> origin/main

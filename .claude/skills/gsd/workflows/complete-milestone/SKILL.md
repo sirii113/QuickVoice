@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:workflow:complete-milestone
 description: Workflow for completing a milestone
@@ -26,7 +25,6 @@ Workflow for completing project milestones.
 ## Success Criteria
 
 Milestone completed and archived.
-=======
 ---
 name: gsd:workflow:complete-milestone
 description: Workflow for completing a milestone
@@ -54,4 +52,3 @@ Workflow for completing project milestones.
 ## Success Criteria
 
 Milestone completed and archived.
->>>>>>> origin/main

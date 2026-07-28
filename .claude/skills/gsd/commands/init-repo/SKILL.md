@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:init-repo
 description: Initialize GSD repository structure
@@ -32,7 +31,6 @@ Initializes GSD repository structure and configuration.
 ## Success Criteria
 
 Repository initialized with GSD structure.
-=======
 ---
 name: gsd:init-repo
 description: Initialize GSD repository structure
@@ -66,4 +64,3 @@ Initializes GSD repository structure and configuration.
 ## Success Criteria
 
 Repository initialized with GSD structure.
->>>>>>> origin/main

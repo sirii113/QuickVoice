@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:add-phase
 description: Add a new phase to the project
@@ -25,7 +24,6 @@ Adds a new phase to the project roadmap.
 ## Success Criteria
 
 Phase added to project.
-=======
 ---
 name: gsd:add-phase
 description: Add a new phase to the project
@@ -52,4 +50,3 @@ Adds a new phase to the project roadmap.
 ## Success Criteria
 
 Phase added to project.
->>>>>>> origin/main

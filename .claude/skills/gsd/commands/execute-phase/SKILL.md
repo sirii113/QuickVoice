@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: gsd:execute-phase
 description: Execute phase tasks using wave-based parallel execution
@@ -47,7 +46,6 @@ All phase tasks completed with atomic commits.
 
 @skills/gsd/agents/executor - Agent that executes tasks
 @skills/gsd/commands/plan-phase - Creates phase plans
-=======
 ---
 name: gsd:execute-phase
 description: Execute phase tasks using wave-based parallel execution
@@ -96,4 +94,3 @@ All phase tasks completed with atomic commits.
 
 @skills/gsd/agents/executor - Agent that executes tasks
 @skills/gsd/commands/plan-phase - Creates phase plans
->>>>>>> origin/main

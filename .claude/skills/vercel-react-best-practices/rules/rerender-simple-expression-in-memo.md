@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Do not wrap a simple expression with a primitive result type in useMemo
 impact: LOW-MEDIUM
@@ -34,7 +33,6 @@ function Header({ user, notifications }: Props) {
   // return some markup
 }
 ```
-=======
 ---
 title: Do not wrap a simple expression with a primitive result type in useMemo
 impact: LOW-MEDIUM
@@ -70,4 +68,3 @@ function Header({ user, notifications }: Props) {
   // return some markup
 }
 ```
->>>>>>> origin/main

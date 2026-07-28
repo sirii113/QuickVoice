@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: Store Event Handlers in Refs
 impact: LOW
@@ -54,7 +53,6 @@ function useWindowEvent(event: string, handler: (e) => void) {
 ```
 
 `useEffectEvent` provides a cleaner API for the same pattern: it creates a stable function reference that always calls the latest version of the handler.
-=======
 ---
 title: Store Event Handlers in Refs
 impact: LOW
@@ -110,4 +108,3 @@ function useWindowEvent(event: string, handler: (e) => void) {
 ```
 
 `useEffectEvent` provides a cleaner API for the same pattern: it creates a stable function reference that always calls the latest version of the handler.
->>>>>>> origin/main
