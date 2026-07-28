@@ -1,0 +1,223 @@
+import nodemailer from "nodemailer";
+
+type AuthEmailType = "verifyEmail" | "resetPassword";
+
+interface EmailContent {
+  subject: string;
+  heading: string;
+  intro: string;
+  action: string;
+}
+
+function requireEnv(name: string) {
+  const value = process.env[name];
+  if (!value) {
+    throw new Error(`Missing required email environment variable: ${name}`);
+  }
+  return value;
+}
+
+function getZeptoMailToken() {
+  const token = process.env.ZEPTOMAIL_TOKEN;
+  if (!token) {
+    throw new Error("Missing required email environment variable: ZEPTOMAIL_TOKEN");
+  }
+  const trimmedToken = token.trim();
+  if (/^zoho-enczapikey\s+/i.test(trimmedToken)) {
+    return trimmedToken;
+  }
+  return `zoho-enczapikey ${trimmedToken}`;
+}
+
+function getZeptoMailEndpoint() {
+  const rawUrl = process.env.ZEPTOMAIL_URL || process.env.SMTP_HOST || "api.zeptomail.com";
+
+  const urlWithProtocol = /^https?:\/\//i.test(rawUrl)
+    ? rawUrl
+    : `https://${rawUrl}`;
+  const endpoint = new URL(urlWithProtocol);
+
+  if (endpoint.hostname.startsWith("smtp.zeptomail.")) {
+    endpoint.hostname = endpoint.hostname.replace(/^smtp\./, "api.");
+  }
+
+  const path = endpoint.pathname.replace(/\/+$/, "");
+  if (!path) {
+    endpoint.pathname = "/v1.1/email";
+  } else if (path === "/v1.1") {
+    endpoint.pathname = "/v1.1/email";
+  } else {
+    endpoint.pathname = path;
+  }
+
+  endpoint.search = "";
+  endpoint.hash = "";
+
+  return endpoint.toString();
+}
+
+function getSmtpPort() {
+  const rawPort = process.env.SMTP_PORT || "587";
+  const port = Number.parseInt(rawPort, 10);
+  if (!Number.isFinite(port)) {
+    throw new Error("Invalid email environment variable: SMTP_PORT");
+  }
+  return port;
+}
+
+function getSmtpTransport() {
+  const port = getSmtpPort();
+  return nodemailer.createTransport({
+    host: requireEnv("SMTP_HOST"),
+    port,
+    secure: port === 465,
+    auth: {
+      user: requireEnv("SMTP_USERNAME"),
+      pass: requireEnv("SMTP_PASSWORD"),
+    },
+  });
+}
+
+function escapeHtml(value: string) {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function contentFor(type: AuthEmailType): EmailContent {
+  if (type === "verifyEmail") {
+    return {
+      subject: "Verify your QuickVoice email",
+      heading: "Verify your email",
+      intro: "Confirm your email address to finish setting up your QuickVoice account.",
+      action: "Verify email",
+    };
+  }
+
+  return {
+    subject: "Reset your QuickVoice password",
+    heading: "Reset your password",
+    intro: "Use this secure link to reset your QuickVoice password.",
+    action: "Reset password",
+  };
+}
+
+function buildText(content: EmailContent, url: string, fullName: string) {
+  return [
+    `Hi ${fullName || "there"},`,
+    "",
+    content.intro,
+    "",
+    `${content.action}: ${url}`,
+  ].join("\n");
+}
+
+function buildHtml(content: EmailContent, url: string, fullName: string) {
+  const safeName = escapeHtml(fullName || "there");
+  const safeUrl = escapeHtml(url);
+
+  return `<!doctype html>
+<html>
+  <body style="margin:0;background:#f6f7f9;font-family:Arial,sans-serif;color:#111827;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="padding:32px 16px;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:560px;background:#ffffff;border-radius:12px;padding:32px;">
+            <tr>
+              <td>
+                <h1 style="margin:0 0 16px;font-size:24px;line-height:32px;">${escapeHtml(content.heading)}</h1>
+                <p style="margin:0 0 16px;font-size:16px;line-height:24px;">Hi ${safeName},</p>
+                <p style="margin:0 0 24px;font-size:16px;line-height:24px;">${escapeHtml(content.intro)}</p>
+                <p style="margin:0 0 24px;">
+                  <a href="${safeUrl}" style="display:inline-block;background:#111827;color:#ffffff;text-decoration:none;border-radius:8px;padding:12px 18px;font-size:14px;font-weight:700;">${escapeHtml(content.action)}</a>
+                </p>
+                <p style="margin:0 0 8px;font-size:14px;line-height:22px;color:#4b5563;">If the button does not work, paste this link into your browser:</p>
+                <p style="margin:0;font-size:14px;line-height:22px;word-break:break-all;color:#4b5563;">${safeUrl}</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>`;
+}
+
+export async function sendEmail(
+  type: AuthEmailType,
+  email: string,
+  url: string,
+  fullName: string,
+) {
+  const content = contentFor(type);
+  const fromEmail = requireEnv("FROM_EMAIL");
+  const fromName = "Console|Quickvoice";
+  const text = buildText(content, url, fullName);
+  const html = buildHtml(content, url, fullName);
+
+  const payload = {
+    from: {
+      address: fromEmail,
+      name: fromName,
+    },
+    to: [
+      {
+        email_address: {
+          address: email,
+          name: fullName,
+        },
+      },
+    ],
+    subject: content.subject,
+    textbody: text,
+    htmlbody: html,
+  };
+
+  if (process.env.ZEPTOMAIL_TOKEN) {
+    try {
+      const response = await fetch(getZeptoMailEndpoint(), {
+        method: "POST",
+        headers: {
+          Authorization: getZeptoMailToken(),
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+      const body = await response.text();
+
+      if (!response.ok) {
+        throw new Error(
+          `ZeptoMail responded with ${response.status} ${response.statusText}: ${body}`,
+        );
+      }
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      throw new Error(`Failed to send ${type} email via ZeptoMail: ${message}`);
+    }
+    return;
+  }
+
+  try {
+    await getSmtpTransport().sendMail({
+      from: {
+        address: fromEmail,
+        name: fromName,
+      },
+      to: [
+        {
+          address: email,
+          name: fullName,
+        },
+      ],
+      subject: content.subject,
+      text,
+      html,
+    });
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`Failed to send ${type} email via SMTP: ${message}`);
+  }
+}
