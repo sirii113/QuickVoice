@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "@repo/typescript-config/base.json",
@@ -9,3 +10,16 @@
   "include": ["src/**/*.ts", "data/**/*.ts"],
   "exclude": ["node_modules", "dist", "prisma/generated"]
 }
+=======
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts", "data/**/*.ts"],
+  "exclude": ["node_modules", "dist", "prisma/generated"]
+}
+>>>>>>> origin/main

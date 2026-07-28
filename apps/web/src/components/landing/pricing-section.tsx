@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import SimplePricing from "../mvpblocks/simple-pricing";
 
 export function PricingSection() {
@@ -5,3 +6,12 @@ export function PricingSection() {
     <SimplePricing />
   );
 }
+=======
+import SimplePricing from "../mvpblocks/simple-pricing";
+
+export function PricingSection() {
+  return (
+    <SimplePricing />
+  );
+}
+>>>>>>> origin/main

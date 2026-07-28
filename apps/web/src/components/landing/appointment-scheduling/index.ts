@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export { AppointmentSchedulingCtaSection } from './appointment-scheduling-cta-section';
 export { AppointmentSchedulingFaqSection } from './appointment-scheduling-faq-section';
 export { AppointmentSchedulingFeaturesSection } from './appointment-scheduling-features-section';
@@ -7,3 +8,14 @@ export { AppointmentSchedulingIntegrationsSection } from './appointment-scheduli
 export { AppointmentSchedulingJourneySection } from './appointment-scheduling-journey-section';
 export { AppointmentSchedulingTestimonialsSection } from './appointment-scheduling-testimonials-section';
 export { AppointmentSchedulingVoiceSection } from './appointment-scheduling-voice-section';
+=======
+export { AppointmentSchedulingCtaSection } from './appointment-scheduling-cta-section';
+export { AppointmentSchedulingFaqSection } from './appointment-scheduling-faq-section';
+export { AppointmentSchedulingFeaturesSection } from './appointment-scheduling-features-section';
+export { AppointmentSchedulingHeroSection } from './appointment-scheduling-hero-section';
+export { AppointmentSchedulingIndustriesSection } from './appointment-scheduling-industries-section';
+export { AppointmentSchedulingIntegrationsSection } from './appointment-scheduling-integrations-section';
+export { AppointmentSchedulingJourneySection } from './appointment-scheduling-journey-section';
+export { AppointmentSchedulingTestimonialsSection } from './appointment-scheduling-testimonials-section';
+export { AppointmentSchedulingVoiceSection } from './appointment-scheduling-voice-section';
+>>>>>>> origin/main

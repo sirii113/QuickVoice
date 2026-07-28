@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 packages:
   - "apps/*"
   - "packages/*"
+=======
+packages:
+  - "apps/*"
+  - "packages/*"
+>>>>>>> origin/main

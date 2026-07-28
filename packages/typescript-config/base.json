@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
@@ -17,3 +18,24 @@
     "target": "ES2022"
   }
 }
+=======
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "isolatedModules": true,
+    "lib": ["ES2022"],
+    "module": "NodeNext",
+    "moduleDetection": "force",
+    "moduleResolution": "NodeNext",
+    "noUncheckedIndexedAccess": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022"
+  }
+}
+>>>>>>> origin/main

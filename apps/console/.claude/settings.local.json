@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "permissions": {
     "allow": [
@@ -6,3 +7,13 @@
     ]
   }
 }
+=======
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
+>>>>>>> origin/main

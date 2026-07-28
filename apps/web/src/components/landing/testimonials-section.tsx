@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import TestimonialsCarousel from "../mvpblocks/testimonials-carousel";
 
 export function TestimonialsSection() {
@@ -5,3 +6,12 @@ export function TestimonialsSection() {
     <TestimonialsCarousel />
   );
 }
+=======
+import TestimonialsCarousel from "../mvpblocks/testimonials-carousel";
+
+export function TestimonialsSection() {
+  return (
+    <TestimonialsCarousel />
+  );
+}
+>>>>>>> origin/main

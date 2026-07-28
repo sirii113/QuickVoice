@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 [project]
   subdomain = "quickintell-pemnve31"
 
 [agent]
   id = "CA_CBhKMxKQvaAJ"
+=======
+[project]
+  subdomain = "quickintell-pemnve31"
+
+[agent]
+  id = "CA_CBhKMxKQvaAJ"
+>>>>>>> origin/main

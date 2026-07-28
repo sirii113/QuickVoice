@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "extends": "./browser.json",
@@ -5,3 +6,12 @@
     "jsx": "react-jsx"
   }
 }
+=======
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./browser.json",
+  "compilerOptions": {
+    "jsx": "react-jsx"
+  }
+}
+>>>>>>> origin/main

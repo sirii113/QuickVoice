@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Feature1 from "../mvpblocks/feature-1";
 
 export function FeaturesSection() {
@@ -5,3 +6,12 @@ export function FeaturesSection() {
     <Feature1 />
   );
 }
+=======
+import Feature1 from "../mvpblocks/feature-1";
+
+export function FeaturesSection() {
+  return (
+    <Feature1 />
+  );
+}
+>>>>>>> origin/main

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { cn } from "@/src/lib/utils"
 
 function Skeleton({ className, ...props }: React.ComponentProps<"div">) {
@@ -12,3 +13,19 @@ function Skeleton({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 export { Skeleton }
+=======
+import { cn } from "@/src/lib/utils"
+
+function Skeleton({ className, ...props }: React.ComponentProps<"div">) {
+ return (
+ <div
+ data-slot="skeleton"
+ aria-hidden="true"
+ className={cn("bg-muted motion-safe:animate-pulse", className)}
+ {...props}
+ />
+ )
+}
+
+export { Skeleton }
+>>>>>>> origin/main

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 blank_issues_enabled: false
 contact_links:
   - name: Security report instructions
@@ -9,3 +10,16 @@ contact_links:
   - name: Support boundaries
     url: https://github.com/allgpt-co/QuickVoice/blob/main/SUPPORT.md
     about: Check what information to include and which provider or production topics are out of scope.
+=======
+blank_issues_enabled: false
+contact_links:
+  - name: Security report instructions
+    url: https://github.com/allgpt-co/QuickVoice/security/policy
+    about: Do not publish vulnerability details in an issue. Use the private reporting instructions.
+  - name: Questions and architecture discussions
+    url: https://github.com/allgpt-co/QuickVoice/discussions
+    about: Ask how-to questions and discuss approaches before proposing broad changes.
+  - name: Support boundaries
+    url: https://github.com/allgpt-co/QuickVoice/blob/main/SUPPORT.md
+    about: Check what information to include and which provider or production topics are out of scope.
+>>>>>>> origin/main

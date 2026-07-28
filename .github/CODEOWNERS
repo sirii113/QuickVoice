@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fallback ownership for all paths. More specific owners can be added as the
 # formal maintainer group grows.
 * @rahuliitk
@@ -16,3 +17,23 @@
 /docker-compose.dev.yml @rahuliitk
 /Taskfile.yml @rahuliitk
 /scripts/ @rahuliitk
+=======
+# Fallback ownership for all paths. More specific owners can be added as the
+# formal maintainer group grows.
+* @rahuliitk
+
+# Trust, contribution, release, security, and automation surfaces.
+/.github/ @rahuliitk
+/SECURITY.md @rahuliitk
+/GOVERNANCE.md @rahuliitk
+/MAINTAINERS.md @rahuliitk
+/docs/releases/ @rahuliitk
+
+# Runtime and data-boundary changes need maintainer review.
+/apps/ai/ @rahuliitk
+/apps/server/ @rahuliitk
+/apps/server/prisma/ @rahuliitk
+/docker-compose.dev.yml @rahuliitk
+/Taskfile.yml @rahuliitk
+/scripts/ @rahuliitk
+>>>>>>> origin/main

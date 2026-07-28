@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 venv/
 .env
 .env.*
 !.env.dev.example
 .env.local
 __pycache__/
+=======
+venv/
+.env
+.env.*
+!.env.dev.example
+.env.local
+__pycache__/
+>>>>>>> origin/main

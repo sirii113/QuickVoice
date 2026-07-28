@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { z } from "zod";
 
 export const conversationMessageSchema = z.object({
@@ -5,4 +6,13 @@ export const conversationMessageSchema = z.object({
     role: z.enum(["user", "agent"]),
     message: z.string(),
     timestamp: z.string().datetime(),
+=======
+import { z } from "zod";
+
+export const conversationMessageSchema = z.object({
+    messageId: z.string(),
+    role: z.enum(["user", "agent"]),
+    message: z.string(),
+    timestamp: z.string().datetime(),
+>>>>>>> origin/main
   });

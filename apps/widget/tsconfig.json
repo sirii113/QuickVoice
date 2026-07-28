@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "extends": "../../packages/typescript-config/browser.json",
   "compilerOptions": {
@@ -6,3 +7,13 @@
   },
   "include": ["src/**/*.ts"]
 }
+=======
+{
+  "extends": "../../packages/typescript-config/browser.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": []
+  },
+  "include": ["src/**/*.ts"]
+}
+>>>>>>> origin/main

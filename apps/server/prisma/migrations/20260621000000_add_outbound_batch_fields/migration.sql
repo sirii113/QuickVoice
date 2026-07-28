@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ALTER TABLE "Campaign"
   ADD COLUMN "sourceFileKey" TEXT,
   ADD COLUMN "sourceFileName" TEXT,
@@ -8,3 +9,15 @@ ALTER TABLE "Campaign"
   ADD COLUMN "timezone" TEXT NOT NULL DEFAULT 'UTC',
   ADD COLUMN "startedAt" TIMESTAMP(3),
   ADD COLUMN "completedAt" TIMESTAMP(3);
+=======
+ALTER TABLE "Campaign"
+  ADD COLUMN "sourceFileKey" TEXT,
+  ADD COLUMN "sourceFileName" TEXT,
+  ADD COLUMN "totalRecipients" INTEGER NOT NULL DEFAULT 0,
+  ADD COLUMN "validRecipients" INTEGER NOT NULL DEFAULT 0,
+  ADD COLUMN "invalidRecipients" INTEGER NOT NULL DEFAULT 0,
+  ADD COLUMN "ringingTimeoutSeconds" INTEGER NOT NULL DEFAULT 60,
+  ADD COLUMN "timezone" TEXT NOT NULL DEFAULT 'UTC',
+  ADD COLUMN "startedAt" TIMESTAMP(3),
+  ADD COLUMN "completedAt" TIMESTAMP(3);
+>>>>>>> origin/main
