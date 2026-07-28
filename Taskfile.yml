@@ -79,14 +79,18 @@ tasks:
       - docker compose -f {{.COMPOSE_FILE}} --env-file .env.dev --profile mail up -d mailpit
       - echo "Mailpit is available at http://localhost:8025"
 
-  mail:down:
+    mail:down:
     desc: Stop optional Mailpit email testing service
     deps:
       - env:dev
     cmds:
       - docker compose -f {{.COMPOSE_FILE}} --env-file .env.dev --profile mail stop mailpit
       - docker compose -f {{.COMPOSE_FILE}} --env-file .env.dev --profile mail rm -f mailpit
-        dev:clear:
+
+  dev:clear:
+    desc: Stop stale QuickVoice local dev processes
+    cmds:
+      - ./scripts/dev-clear-processes.sh
     desc: Stop stale QuickVoice local dev processes
     cmds:
       - ./scripts/dev-clear-processes.sh
