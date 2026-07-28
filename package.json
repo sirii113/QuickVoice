@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "name": "QuickVoice",
   "description": "Open-source, self-hostable Retell alternative for AI phone agents.",
@@ -65,7 +65,7 @@
     }
   }
 }
-=======
+
 {
   "name": "QuickVoice",
   "description": "Open-source, self-hostable Retell alternative for AI phone agents.",
@@ -132,4 +132,4 @@
     }
   }
 }
->>>>>>> origin/main
+
